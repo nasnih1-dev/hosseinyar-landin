@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>آموزشگاه زبان حسینیار</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header">
+    <div class="container">
+      <div class="logo">حسینیار</div>
+      <nav class="nav" id="navMenu">
+        <a href="#hero">خانه</a>
+        <a href="#courses">دوره‌ها</a>
+        <a href="#about">درباره ما</a>
+        <a href="#contact">تماس</a>
+      </nav>
+      <button class="cta-btn">ثبت‌نام رایگان</button>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero" id="hero">
+    <div class="overlay"></div>
+    <div class="hero-content animate">
+      <h1>زبان جدید یاد بگیر، آینده‌ات رو بساز!</h1>
+      <p>با آموزشگاه زبان حسینیار، زبان‌های عربی، انگلیسی و آلمانی را حرفه‌ای بیاموز.</p>
+      <a href="#courses" class="btn">شروع یادگیری</a>
+    </div>
+  </section>
+
+  <!-- ===== Courses Section ===== -->
+  <section class="courses" id="courses">
+    <h2 class="animate">دوره‌های پرطرفدار</h2>
+    <div class="course-container">
+      <div class="course-card animate">
+        <img src="img/english.jpg" alt="دوره انگلیسی">
+        <h3>زبان انگلیسی</h3>
+        <p>دوره‌های مقدماتی تا پیشرفته برای مکالمه و آزمون‌های بین‌المللی.</p>
+        <button>جزئیات بیشتر</button>
+      </div>
+      <div class="course-card animate">
+        <img src="img/german.jpg" alt="دوره آلمانی">
+        <h3>زبان آلمانی</h3>
+        <p>یادگیری آسان آلمانی برای مهاجرت و تحصیل در اروپا.</p>
+        <button>جزئیات بیشتر</button>
+      </div>
+      <div class="course-card animate">
+        <img src="img/arabic.jpg" alt="دوره عربی">
+        <h3>زبان عربی</h3>
+        <p>آموزش عربی فصیح و لهجه‌های محاوره‌ای به‌صورت مکالمه محور.</p>
+        <button>جزئیات بیشتر</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="about" id="about">
+    <div class="about-container animate">
+      <img src="img/about.jpg" alt="درباره آموزشگاه">
+      <div class="about-text">
+        <h2>درباره آموزشگاه حسینیار</h2>
+        <p>آموزشگاه حسینیار با بیش از ۱۰ سال سابقه، برگزارکننده دوره‌های تخصصی زبان‌های خارجی با روش‌های نوین آموزشی است. ما با بهره‌گیری از اساتید مجرب و منابع آموزشی معتبر، یادگیری را آسان و لذت‌بخش کرده‌ایم.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Testimonials Section ===== -->
+  <section class="testimonials">
+    <h2 class="animate">نظرات زبان‌آموزان</h2>
+    <div class="testi-container">
+      <div class="testi-card animate">
+        <img src="img/student1.jpg" alt="دانشجو">
+        <p>“اساتید بسیار عالی و با حوصله بودن. توی سه ماه مکالمه‌ام عالی شد.”</p>
+        <h4>زهرا احمدی</h4>
+      </div>
+      <div class="testi-card animate">
+        <img src="img/student2.jpg" alt="دانشجو">
+        <p>“دوره آلمانی واقعاً مفید بود. الان در آلمان تحصیل می‌کنم.”</p>
+        <h4>علی حسینی</h4>
+      </div>
+      <div class="testi-card animate">
+        <img src="img/student3.jpg" alt="دانشجو">
+        <p>“با دوره عربی تونستم به راحتی مکالمه کنم و در سفرم استفاده کنم.”</p>
+        <h4>مریم ناصری</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section class="contact" id="contact">
+    <h2 class="animate">تماس با ما</h2>
+    <form id="contactForm" class="animate">
+      <input type="text" id="name" placeholder="نام شما" required>
+      <input type="email" id="email" placeholder="ایمیل شما" required>
+      <textarea id="message" rows="4" placeholder="پیام شما" required></textarea>
+      <button type="submit">ارسال پیام</button>
+      <p id="formMessage"></p>
+    </form>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 آموزشگاه زبان حسینیار | طراحی با 💙</p>
+    <div class="socials">
+      <a href="#">📘</a>
+      <a href="#">📸</a>
+      <a href="#">💬</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
